@@ -1,22 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Emma Dennis | Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 24px;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #1f2937;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills span {
+      background: #e5e7eb;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Emma Dennis</h1>
-  <p>BAS Information Technology Application Development student at Edmonds College.</p>
+  <header>
+    <h1>Emma Dennis</h1>
+    <p>
+      Software development student focused on building practical, user-centered technology solutions.
+    </p>
+  </header>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>CareerPilot</strong> – AI-assisted resume review and interview preparation tool.</li>
-  </ul>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a Bachelor of Applied Science student in Information Technology Application Development at Edmonds College,
+        graduating in August 2026. My experience includes software development, web applications, databases,
+        cloud technologies, and AI-assisted solutions.
+      </p>
+      <p>
+        I am currently seeking entry-level and early-career opportunities in software development,
+        application development, and related technology roles.
+      </p>
+    </section>
 
-  <h2>Contact</h2>
-  <p>
-    GitHub: <a href="https://github.com/EmmaBlueJeans">EmmaBlueJeans</a><br>
-    LinkedIn: <a href="#">Add LinkedIn URL here</a>
-  </p>
+    <section>
+      <h2>Featured Project</h2>
+      <h3>CareerPilot</h3>
+      <p>
+        CareerPilot is a capstone project designed to help job seekers compare their resume against a job posting,
+        receive ATS-style feedback, and prepare for interviews using resume and job-specific guidance.
+      </p>
+      <p>
+        The project focuses on streamlining the job application process by helping users identify resume gaps,
+        improve alignment with job descriptions, and prepare more confidently for interviews.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>SQL</span>
+        <span>Flask</span>
+        <span>PostgreSQL</span>
+        <span>GitHub</span>
+        <span>Web Development</span>
+        <span>Database Design</span>
+        <span>Cloud Technologies</span>
+        <span>AI Integration</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>
+        <strong>Edmonds College</strong><br>
+        Bachelor of Applied Science in Information Technology Application Development<br>
+        Expected Graduation: August 2026
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:emma.dennis206@gmail.com">emma.dennis206@gmail.com</a><br>
+        GitHub: <a href="https://github.com/EmmaBlueJeans">github.com/EmmaBlueJeans</a><br>
+        LinkedIn: <a href="#">Add LinkedIn URL here</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Emma Dennis</p>
+  </footer>
 </body>
 </html>
