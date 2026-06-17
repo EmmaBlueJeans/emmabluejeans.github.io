@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #172033;
+  background: #f7f9fc;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem 8%;
+  background: linear-gradient(135deg, #0f1f35, #1d3b5f);
+  color: white;
+}
+
+.intro {
+  max-width: 560px;
+}
+
+.eyebrow {
+  color: #69d2e7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0.5rem 0;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: #d7e6f5;
+}
+
+.links {
+  margin-top: 2rem;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #69d2e7;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.links a:hover {
+  background: #69d2e7;
+  color: #0f1f35;
+}
+
+.photo img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #69d2e7;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.content {
+  padding: 4rem 8%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.content h2 {
+  color: #1d6f91;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .photo img {
+    width: 240px;
+    height: 240px;
+  }
+}
